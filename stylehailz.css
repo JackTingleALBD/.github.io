@@ -6,8 +6,8 @@ html{height:100%;}
 }
 body {
 background:#0D343A;
-background:fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
-background: fall2-linear-gradient(top, rgba(13,52,58,1) 0%, 
+background:-webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background: -moz-fall2-linear-gradient(top, rgba(13,52,58,1) 0%, 
   rgba(0,0,0,1) 100%);
  justify-content: center;
  display: flex;
@@ -16,8 +16,8 @@ overflow:hidden;}
 
 
 .drop {
-  background: fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
-  background: fall2-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+  background: -webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-fall2-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
 	width:1px;
 	height:89px;
 	position: absolute;
