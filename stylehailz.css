@@ -22,8 +22,9 @@ overflow:hidden;}
 	height:89px;
 	position: absolute;
 	bottom:200px;
-	-webkit-animation: fall .63s linear infinite;
-  -moz-animation: fall .63s linear infinite;
+  animation:
+  fall .63s linear infinite,
+  fall2 .63s linear infinite;
   
 }
 
@@ -31,7 +32,7 @@ overflow:hidden;}
 @keyframes fall {
 	to {margin-top:900px;}
 }
-@-moz-keyframes fall {
+@keyframes fall2 {
 	to {margin-top:900px;}
 }
 
