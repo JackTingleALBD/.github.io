@@ -28,7 +28,7 @@ overflow:hidden;}
 }
 
 /* animate the drops*/
-@-webkit-keyframes fall {
+@keyframes fall {
 	to {margin-top:900px;}
 }
 @-moz-keyframes fall {
@@ -53,6 +53,7 @@ overflow:hidden;}
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
+  margin-top: 10%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
