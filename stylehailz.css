@@ -23,16 +23,16 @@ overflow:hidden;}
 	position: absolute;
 	bottom:200px;
   animation:
-  fall .63s linear infinite,
-  fall2 .63s linear infinite;
+  -webkit-fall .63s linear infinite,
+  -moz-fall2 .63s linear infinite;
   
 }
 
 /* animate the drops*/
-@keyframes -webkit-fall-webkit {
+@keyframes -webkit-fall {
 	to {margin-top:900px;}
 }
-@keyframes -moz-fall2-moz {
+@keyframes -moz-fall2 {
 	to {margin-top:900px;}
 }
 
