@@ -29,10 +29,10 @@ overflow:hidden;}
 }
 
 /* animate the drops*/
-@keyframes fall {
+@keyframes -webkit-fall-webkit {
 	to {margin-top:900px;}
 }
-@keyframes fall2 {
+@keyframes -moz-fall2-moz {
 	to {margin-top:900px;}
 }
 
