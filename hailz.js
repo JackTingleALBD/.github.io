@@ -22,3 +22,16 @@ function createRain() {
 }
 // Make it rain
 createRain();
+
+const options = {
+	method: 'POST',
+	headers: {
+		'X-RapidAPI-Key': '85a40011cbmshaba40d407571a83p10252ejsn5a9ed99f4da3',
+		'X-RapidAPI-Host': 'CoinMarketCapzakutynskyV1.p.rapidapi.com'
+	}
+};
+
+fetch('https://coinmarketcapzakutynskyv1.p.rapidapi.com/getCryptocurrenciesList', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
