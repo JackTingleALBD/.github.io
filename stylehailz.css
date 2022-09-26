@@ -5,10 +5,10 @@ html{height:100%;}
   box-sizing: border-box;
 }
 body {
-background:#0D343A;
-background:-webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
 background: -moz-fall2-linear-gradient(top, rgba(13,52,58,1) 0%, 
   rgba(0,0,0,1) 100%);
+background:-webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background:#0D343A;
  justify-content: center;
  display: flex;
 
