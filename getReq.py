@@ -21,6 +21,7 @@ with open("result.json", "r") as f:
 with open("results.csv", "w") as f:
     fieldnames = rateLimits[0].keys()
     writer = csv.DictWriter(f, fieldnames=fieldnames)
+    count = 0
     writer.writeheader()
     for name in rateLimits:
         writer.writerow(name)

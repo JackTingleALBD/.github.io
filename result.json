@@ -1,6 +1,6 @@
 {
  "timezone": "UTC",
- "serverTime": 1664485473378,
+ "serverTime": 1664487254086,
  "rateLimits": [
   {
    "rateLimitType": "REQUEST_WEIGHT",
@@ -63165,8 +63165,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.39500000",
-     "maxPrice": "7.49500000",
+     "minPrice": "0.39400000",
+     "maxPrice": "7.48200000",
      "tickSize": "0.00100000"
     },
     {
@@ -63210,7 +63210,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "1269.00000000"
+     "maxPosition": "1271.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -63248,8 +63248,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00340500",
-     "maxPrice": "0.06468100",
+     "minPrice": "0.00341200",
+     "maxPrice": "0.06481400",
      "tickSize": "0.00000100"
     },
     {
@@ -63293,7 +63293,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "146916.00000000"
+     "maxPosition": "146430.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -67592,8 +67592,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.33500000",
-     "maxPrice": "6.36000000",
+     "minPrice": "0.33300000",
+     "maxPrice": "6.31700000",
      "tickSize": "0.00100000"
     },
     {
@@ -67637,7 +67637,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "1494.00000000"
+     "maxPosition": "1503.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -67675,8 +67675,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.11250000",
-     "maxPrice": "2.13620000",
+     "minPrice": "0.11310000",
+     "maxPrice": "2.14880000",
      "tickSize": "0.00010000"
     },
     {
@@ -67720,7 +67720,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "4454.00000000"
+     "maxPosition": "4428.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -67758,8 +67758,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.09100000",
-     "maxPrice": "1.71000000",
+     "minPrice": "0.09000000",
+     "maxPrice": "1.70300000",
      "tickSize": "0.00100000"
     },
     {
@@ -67803,7 +67803,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "2781.00000000"
+     "maxPosition": "2790.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -67841,8 +67841,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00047100",
-     "maxPrice": "0.00894400",
+     "minPrice": "0.00047300",
+     "maxPrice": "0.00897600",
      "tickSize": "0.00000100"
     },
     {
@@ -67886,7 +67886,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "531237.00000000"
+     "maxPosition": "529661.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -67924,8 +67924,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00136000",
-     "maxPrice": "0.02569000",
+     "minPrice": "0.00135000",
+     "maxPrice": "0.02549000",
      "tickSize": "0.00001000"
     },
     {
@@ -67969,7 +67969,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "185048.00000000"
+     "maxPosition": "185874.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -68007,8 +68007,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00054600",
-     "maxPrice": "0.01036700",
+     "minPrice": "0.00055000",
+     "maxPrice": "0.01043200",
      "tickSize": "0.00000100"
     },
     {
@@ -68052,7 +68052,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "459559.00000000"
+     "maxPosition": "458211.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -70972,8 +70972,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "3.45000000",
-     "maxPrice": "65.49000000",
+     "minPrice": "3.43000000",
+     "maxPrice": "65.11000000",
      "tickSize": "0.01000000"
     },
     {
@@ -71017,7 +71017,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "145.00000000"
+     "maxPosition": "146.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -71055,8 +71055,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00409000",
-     "maxPrice": "0.07757000",
+     "minPrice": "0.00410000",
+     "maxPrice": "0.07787000",
      "tickSize": "0.00001000"
     },
     {
@@ -71100,7 +71100,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "121684.00000000"
+     "maxPosition": "121714.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -80721,8 +80721,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00528000",
-     "maxPrice": "0.10029000",
+     "minPrice": "0.00544000",
+     "maxPrice": "0.10327000",
      "tickSize": "0.00001000"
     },
     {
@@ -80766,7 +80766,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "95420.00000000"
+     "maxPosition": "91996.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -80804,8 +80804,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.12300000",
-     "maxPrice": "2.31900000",
+     "minPrice": "0.11900000",
+     "maxPrice": "2.25800000",
      "tickSize": "0.00100000"
     },
     {
@@ -80849,7 +80849,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "4072.00000000"
+     "maxPosition": "4198.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -80887,8 +80887,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.02380000",
-     "maxPrice": "0.45100000",
+     "minPrice": "0.02580000",
+     "maxPrice": "0.48850000",
      "tickSize": "0.00010000"
     },
     {
@@ -80932,7 +80932,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "21626.00000000"
+     "maxPosition": "19763.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -80970,8 +80970,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.00002860",
-     "maxPrice": "0.00054190",
+     "minPrice": "0.00002630",
+     "maxPrice": "0.00049940",
      "tickSize": "0.00000010"
     },
     {
@@ -81015,7 +81015,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "17018380.00000000"
+     "maxPosition": "18733608.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -81053,8 +81053,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "0.01670000",
-     "maxPrice": "0.31570000",
+     "minPrice": "0.01660000",
+     "maxPrice": "0.31440000",
      "tickSize": "0.00010000"
     },
     {
@@ -81098,7 +81098,7 @@
     },
     {
      "filterType": "MAX_POSITION",
-     "maxPosition": "30230.00000000"
+     "maxPosition": "30248.00000000"
     },
     {
      "filterType": "MAX_NUM_ALGO_ORDERS",
@@ -81136,8 +81136,8 @@
    "filters": [
     {
      "filterType": "PRICE_FILTER",
-     "minPrice": "1.43800000",
-     "maxPrice": "27.31000000",
+     "minPrice": "1.44300000",
+     "maxPrice": "27.40200000",
      "tickSize": "0.00100000"
     },
     {
