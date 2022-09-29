@@ -16,7 +16,7 @@ with open ("result.json", "w") as outfile:
 
 with open("result.json", "r") as f:
     data = json.load(f)
-    rateLimits = data["rateLimits"]
+    rateLimits = data["symbols"]
 
 with open("results.csv", "w") as f:
     fieldnames = rateLimits[0].keys()
