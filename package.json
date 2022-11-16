@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "sierra-library": "^3.5.0"
   }
 }
