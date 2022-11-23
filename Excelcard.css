@@ -1,0 +1,124 @@
+@import "styles.css";
+
+body {
+    background: -moz-fall2-linear-gradient(top, rgba(13,52,58,1) 0%, 
+      rgba(0,0,0,1) 100%);
+    background:-webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+    background:#0D343A;
+     justify-content: center;
+     display: flex;
+    
+    overflow:hidden;}
+
+.component1
+{
+position:absolute;
+height:615px;
+width:911px;
+padding:2px;
+}
+.bg
+{
+background-color:rgba(217, 217, 217, 0.5);
+height:450px;
+width:900px;
+filter:drop-shadow(0px 5px 15px rgba(0,0,0,0.3499999940395355));
+left:11px;
+top:140px;
+position:absolute;
+}
+.fg
+{
+background-color:#d9d9d9;
+height:450px;
+width:900px;
+filter:drop-shadow(0px 5px 15px rgba(0,0,0,0.3499999940395355));
+top:120px;
+left:0px;
+position:absolute;
+}
+.ifstatement
+{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+left:15px;
+top:120px;
+width:163px;
+height:55px;
+position:absolute;
+line-height:auto;
+}
+.explanation
+{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+left:24px;
+top:300px;
+width:632px;
+height:218px;
+position:absolute;
+line-height:auto;
+}
+.explanation2
+{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+left:24px;
+top:500px;
+width:632px;
+height:218px;
+position:absolute;
+line-height:auto;
+}
+.formulalevel
+{
+color: #5eb998;
+text-align:left;
+vertical-align:text-top;
+font-size:24px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+line-height:auto;
+width:314px;
+position:absolute;
+top:80px;
+left:5px;
+}
+.ifstatement2
+{
+height:111px;
+width:876px;
+left:12px;
+top:170px;
+position:absolute;
+}
+.ifstatement-zoom
+{
+background-color:d9d9d9;
+height:133px;
+width:158px;
+top:320px;
+left:700px;
+position:absolute;
+}
+.ifstatement-zoom2
+{
+height:133px;
+width:158px;
+border-radius:0px 50px 50px 0px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
