@@ -300,7 +300,7 @@ overflow:hidden;}
   inset: 10px;
   background: url(Images/Hailz6.png);
   background-size: cover;
-  box-shadow: 0 0 2px 8px #0d343a;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
 }
 
 .g2 {
@@ -321,7 +321,7 @@ overflow:hidden;}
   inset: 10px;
   background: url(Images/Hailz3.png);
   background-size: cover;
-  box-shadow: 0 0 2px 8px #0d343a;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
 }
 
 .g3 {
@@ -342,6 +342,6 @@ overflow:hidden;}
   inset: 10px;
   background: url(Images/ALBDNewLogo16112022.png);
   background-size: cover;
-  box-shadow: 0 0 2px 8px #0d343a;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
 }
 
