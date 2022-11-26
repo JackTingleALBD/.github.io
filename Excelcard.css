@@ -8,7 +8,7 @@ body {
      justify-content: center;
      display: flex;
     
-    overflow:hidden;}
+    }
 
 .component1
 {
@@ -196,7 +196,7 @@ border-radius:0px 50px 50px 0px;
   }
   .explanation2 {
     width: 400px;
-    top:  600px;
+    top:  580px;
     position: fixed;
   }
   .ifstatement-zoom {
@@ -209,10 +209,6 @@ border-radius:0px 50px 50px 0px;
   }
   .formulalevel {
     position: fixed;
-  }
-  
-  body {
-    overflow: auto;
   }
   
   /* Large screens ----------- */
