@@ -179,10 +179,12 @@ border-radius:0px 50px 50px 0px;
     .bg {
       height:600px;
       width:450px;
+      position: fixed;
     }
     .fg {
       height:600px;
       width:450px;
+      position: fixed;
     }
     .ifstatement2
     {
@@ -190,14 +192,23 @@ border-radius:0px 50px 50px 0px;
     }
   .explanation {
     width: 400px;
+    position: fixed;
   }
   .explanation2 {
     width: 400px;
     top:  600px;
+    position: fixed;
   }
   .ifstatement-zoom {
     top:  150px;
     left: 20px;
+    position: fixed;
+  }
+  .ifstatement {
+    position: fixed;
+  }
+  .formulalevel {
+    position: fixed;
   }
   
   body {
