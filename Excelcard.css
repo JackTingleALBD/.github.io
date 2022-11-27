@@ -20,7 +20,7 @@ padding:2px;
 .bg
 {
 background-color:rgba(217, 217, 217, 0.5);
-height:450px;
+height:600px;
 width:900px;
 filter:drop-shadow(0px 5px 15px rgba(0,0,0,0.3499999940395355));
 left:11px;
@@ -30,7 +30,7 @@ position:absolute;
 .fg
 {
 background-color:#d9d9d9;
-height:450px;
+height:600px;
 width:900px;
 filter:drop-shadow(0px 5px 15px rgba(0,0,0,0.3499999940395355));
 top:120px;
@@ -47,7 +47,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
 left:15px;
 top:120px;
-width:163px;
+width:300px;
 height:55px;
 position:absolute;
 line-height:auto;
