@@ -97,7 +97,8 @@ left:5px;
 .ifstatement2
 {
 height:111px;
-width:876px;
+width: 100%;
+max-width: 880px;
 left:12px;
 top:170px;
 position:absolute;
