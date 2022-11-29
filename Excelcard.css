@@ -181,6 +181,8 @@ border-radius:0px 50px 50px 0px;
       height:600px;
       width:450px;
       position: fixed;
+      
+      
     }
     .fg {
       height:600px;
@@ -211,7 +213,7 @@ border-radius:0px 50px 50px 0px;
   .formulalevel {
     position: fixed;
   }
-  
+  }
   /* Large screens ----------- */
   @media only screen  and (min-width : 1824px) {
   /* Styles */
@@ -284,5 +286,4 @@ border-radius:0px 50px 50px 0px;
   
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
-  }
   }
