@@ -1,0 +1,66 @@
+@import "styles.css";
+
+body {
+    background-color:#0D343A;
+    display: flex;
+    justify-content: center;
+}
+
+.pure-g {
+    margin-top: 8%;
+    margin-left: 2%;
+    
+}
+
+.pure-button.pure-button-excel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(48, 197, 48);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: snow;
+    font-weight: bold;
+    min-width: 180px;
+    
+}
+
+.pure-button.pure-button-gs{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(139, 197, 231);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: snow;
+    font-weight: bold;
+    min-width: 180px;
+    
+}
+
+strong {
+    color: #0D343A;
+}
+
+strong:hover {
+    color: #9dff00;
+    transition: all 1s ease-in-out;
+}
+
+.pure-button.pure-button-excel:hover {
+    color: rgb(72, 8, 248);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.pure-button.pure-button-gs:hover {
+    color: rgb(72, 8, 248);
+    box-shadow: 0 5px 30px rgba(145, 92, 182, .4);
+}
+
+@media only screen  and (max-width : 1224px) {
+    .pure-g {
+    margin-top: 15%;
+    }
+}

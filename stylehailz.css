@@ -1,0 +1,355 @@
+@import "styles.css";
+
+html{height:100%;}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+background: -moz-fall2-linear-gradient(top, #0d343a 0%, 
+  rgba(0,0,0,1) 100%);
+background:-webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background:#0D343A;
+ justify-content: center;
+ display: flex;
+
+overflow:auto;}
+
+
+.drop {
+  background: -webkit-fall-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-fall2-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	width:1px;
+	height:89px;
+	position: absolute;
+	bottom:200px;
+  animation:
+  -webkit-fall .63s linear infinite,
+  -moz-fall2 .63s linear infinite;
+  
+}
+
+/* animate the drops*/
+@keyframes -webkit-fall {
+	to {margin-top:900px;}
+}
+@keyframes -moz-fall2 {
+	to {margin-top:900px;}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  position: absolute;
+  overflow: hidden;
+  margin-top: 90px;
+  color: #fff;
+  font-family: monospace;
+  white-space: nowrap;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: 
+    typing 5.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+.typewriter h2 {
+  position: absolute;
+  overflow: hidden;
+  margin-top: 130px;
+  color: #fff;
+  font-family: monospace;
+  white-space: nowrap;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    animation:
+      typing 10s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+/*
+ * -- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+
+ .home-menu {
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+  background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+  /* Fixed menus normally have a border at the bottom. */
+  border-bottom: none;
+  /* I need a higher z-index here because of the scroll-over effect. */
+  z-index: 4;
+  overflow: auto;
+}
+
+.home-menu .pure-menu-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+  color: white;
+}
+
+.home-menu a {
+  color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: none;
+  border: none;
+  color: #AECFE5;
+}
+
+/* This styles the aside container */
+#aSide {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: calc(50% - 250px);
+  right: 7%;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#aSide model-viewer {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+/*
+ * -- LAYOUT STYLES --
+ * These are some useful classes which I will need
+ */
+ .l-box {
+  padding: 1em;
+}
+
+.l-box-lrg {
+  padding: 2em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+  text-align: center;
+}
+
+
+/*
+* -- SPLASH STYLES --
+* This is the blue top section that appears on the page.
+*/
+
+.splash-container {
+  background: lightseagreen;
+  z-index: 1;
+  overflow: hidden;
+  /* The following styles are required for the "scroll-over" effect */
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+
+.splash {
+  /* absolute center .splash within .splash-container */
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* This is the main heading that appears on the blue section */
+.splash-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+  color: white;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+ @media (min-width: 48em) {
+
+  /* We increase the body font size */
+  body {
+      font-size: 16px;
+  }
+
+  /* We can align the menu header to the left, but float the
+  menu items to the right. */
+  .home-menu {
+      text-align: left;
+  }
+      .home-menu ul {
+          float: right;
+      }
+
+  /* We increase the height of the splash-container */
+/*    .splash-container {
+      height: 500px;
+  }*/
+
+  /* We decrease the width of the .splash, since we have more width
+  to work with */
+  .splash {
+      width: 100%;
+      height: 100%;
+  }
+
+  .splash-head {
+      font-size: 250%;
+  }
+
+
+  /* We remove the border-separator assigned to .l-box-lrg */
+  .l-box-lrg {
+      border: none;
+  }
+
+}
+
+/*
+* -- DESKTOP (AND UP) MEDIA QUERIES --
+* On desktops and other large devices, we want to over-ride some
+* of the mobile and tablet styles.
+*/
+@media (min-width: 78em) {
+  /* We increase the header font size even more */
+  .splash-head {
+      font-size: 300%;
+  }
+}
+
+/* Gallary Style */
+
+:root {
+  --clr: #0d343a
+}
+.gallary {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: var(--clr);
+  align-items: center;
+  margin: auto;
+  column-gap: 25px;
+  min-width: 0;
+}
+
+.g1 {
+  position: relative;
+  width: 400px;
+  height: 320px;
+  background: #fff radial-gradient(
+      var(--clr) 0px,
+      var(--clr) 11px,
+      transparent 6px);
+  background-size: 20px 20px;
+  background-position: -10px;
+}
+
+.g1::before {
+  content:'';
+  position: absolute;
+  inset: 10px;
+  background: url(Images/Hailz6.png);
+  background-size: cover;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
+}
+
+.g2 {
+  position: relative;
+  width: 400px;
+  height: 320px;
+  background: #fff radial-gradient(
+      var(--clr) 0px,
+      var(--clr) 11px,
+      transparent 6px);
+  background-size: 20px 20px;
+  background-position: -10px;
+}
+
+.g2::before {
+  content:'';
+  position: absolute;
+  inset: 10px;
+  background: url(Images/Hailz3.png);
+  background-size: cover;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
+}
+
+.g3 {
+  position: relative;
+  width: 400px;
+  height: 320px;
+  background: #fff radial-gradient(
+      var(--clr) 0px,
+      var(--clr) 11px,
+      transparent 6px);
+  background-size: 20px 20px;
+  background-position: -10px;
+}
+
+.g3::before {
+  content:'';
+  position: absolute;
+  inset: 10px;
+  background: url(Images/ALBDNewLogo16112022.png);
+  background-size: cover;
+  box-shadow: 2px 2px 4px 10px #0b5d69;
+}
+
+@media only screen  and (max-width : 1224px) {
+  .gallary{
+    flex-direction: column;
+    margin-top: 20%;
+
+  }
+
+}
