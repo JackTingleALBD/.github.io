@@ -120,6 +120,49 @@ label {
     
 }
 
+.button-upwork:link {
+    background-color: rgb(12, 194, 164);
+    color: black;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 4px darkcyan;
+    cursor: pointer;
+    
+}
+
+.button-upwork:active {
+    background-color: rgb(12, 194, 164);
+    color: black;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
+.button-upwork:visited {
+    background-color: rgb(12, 194, 164);
+    color: black;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.button-upwork:hover {
+    background-color: rgb(12, 194, 164);
+    color: black;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    
+}
+
 a.pure-button-primary {
     background: white;
     color: #000000;
