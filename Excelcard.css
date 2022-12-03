@@ -64,7 +64,7 @@ top:300px;
 width:632px;
 height:218px;
 position:absolute;
-line-height:auto;
+line-height:24px;
 }
 .explanation2
 {
@@ -89,7 +89,7 @@ font-size:24px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
 line-height:auto;
-width:314px;
+width:350px;
 position:absolute;
 top:80px;
 left:5px;
@@ -201,10 +201,15 @@ border-radius:0px 50px 50px 0px;
     left: 10%;
   }
   .explanation2 {
-    width: 400px;
+    word-wrap: break-word;
+    white-space:normal;
+    max-width: 430px;
     top:  580px;
     position: fixed;
     left: 10%;
+    color: rgb(204, 141, 7);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .ifstatement-zoom {
     top:  150px;
