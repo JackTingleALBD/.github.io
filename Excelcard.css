@@ -176,11 +176,12 @@ border-radius:0px 50px 50px 0px;
   
   /* Desktops and laptops ----------- */
   
-  @media only screen  and (max-width : 1224px) {
+  @media only screen  and (max-width : 1224px) and (orientation : portrait) {
     .bg {
       height:600px;
       width:450px;
       position: fixed;
+      left: 10%;
       
       
     }
@@ -188,6 +189,7 @@ border-radius:0px 50px 50px 0px;
       height:600px;
       width:450px;
       position: fixed;
+      left: 8%;
     }
     .ifstatement2
     {
@@ -196,22 +198,27 @@ border-radius:0px 50px 50px 0px;
   .explanation {
     width: 400px;
     position: fixed;
+    left: 10%;
   }
   .explanation2 {
     width: 400px;
     top:  580px;
     position: fixed;
+    left: 10%;
   }
   .ifstatement-zoom {
     top:  150px;
     left: 20px;
     position: fixed;
+    left: 10%;
   }
   .ifstatement {
     position: fixed;
+    left: 10%;
   }
   .formulalevel {
     position: fixed;
+    left: 10%;
   }
   }
   /* Large screens ----------- */
