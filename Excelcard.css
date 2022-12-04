@@ -223,7 +223,8 @@ border-radius:0px 50px 50px 0px;
   }
   .formulalevel {
     position: fixed;
-    left: 10%;
+    left: 8%;
+    margin-top: 2%;
   }
   }
   /* Large screens ----------- */
