@@ -61,6 +61,7 @@ strong:hover {
 
 @media only screen  and (max-width : 1224px) {
     .pure-g {
-    margin-top: 17%;
+    margin-top: 20%;
+    vertical-align: middle;
     }
 }
