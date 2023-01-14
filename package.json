@@ -1,7 +1,12 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "graphql": "^16.5.0",
     "supabase": "^1.33.0"
+=======
+    "googleapis": "^110.0.0",
+    "graphql": "^16.5.0"
+>>>>>>> bb7b05865db31fe8d873ce5c3b487132ab18d2d9
   },
   "devDependencies": {
     "sierra-library": "^3.5.0"
