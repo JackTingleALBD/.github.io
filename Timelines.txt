@@ -17,4 +17,4 @@ Ordinary Workflow (Snippets)
 
 Ordinary Workflow (Course)
 	- Looker Studio
-	- Appsheet
+	- Appsheet (Field Asset Management)
