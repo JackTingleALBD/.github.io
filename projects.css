@@ -1,0 +1,41 @@
+.img-wrapper {
+    background-color: rgb(184, 197, 193);
+    border-radius: 20px;
+}
+
+img {
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    max-width: 100%;
+    height: auto;  
+    box-shadow: 4px 8px 12px grey ;
+    border-radius: 20px;
+}
+
+.slick-carousel {
+    margin-top: 5%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    text-align: center;
+}
+
+@media (min-width: 390px) {
+    .slick-carousel {
+        margin-top: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    .slick-carousel {
+        margin-top: 10%;
+    }
+
+    img {
+        margin-left: 5%;
+    }
+}
